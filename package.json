@@ -1,6 +1,6 @@
 {
 	"scripts": {
-		"build": "webpack --config ./bundler/webpack.prod.js --output dist",
+		"build": "webpack --config ./bundler/webpack.prod.js",
 		"dev": "webpack serve --config ./bundler/webpack.dev.js",
 		"deploy": "vercel --prod"
 	},
